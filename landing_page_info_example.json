@@ -1,0 +1,110 @@
+{
+  "header": {
+    "notice": {
+      "message": {
+        "content": "",
+        "color": ""        
+      },
+      "backgroundColor": ""
+    },
+    "logo": {
+      "position": "", // "left" | "center" | "center-block"
+      "size": "", // "normal" | "small" | "big"
+      "image_url": ""
+    },
+    "navigation": {
+      "links": [
+        {
+          "type": "section", // "section" | "external"
+          "content": "",
+          "href": ""
+        }
+      ],
+      "position": "" // "left" | "center"
+    },
+    "cta": [
+      {
+        "type": "", // "primary" | "non-primary"
+        "content": "",
+        "href": ""
+      }
+    ]
+  },
+  "hero": {
+    "headline": {
+      "content": "",
+      "position": "", // "left" | "right" | "top" | "bottom"
+    },
+    "subheadline": {
+      "content": ""
+    },
+    "cta": [
+      {
+        "type": "", // "primary" | "non-primary"
+        "content": "",
+        "href": ""
+      }
+    ],
+    "showcase": {
+      "type": "image", // "image" | "video"
+      "source_url": "",
+      "position": "", // "left" | "right" | "top" | "bottom"
+      "offset_x": 0,
+      "offset_y": 0,
+      "scale": 1
+    }
+  },
+  "section": [
+    {
+      "title": {
+        "content": "",
+        "position": "" // "left" | "center" | "right"
+      },
+      "description": {
+        "content": ""
+      },
+      "layout": "", // "1-column" | "2-columns" | "3-columns" | "4-grid" | "masonry" | "feature"
+      "items": [
+        {
+          "title": "",
+          "description": "",
+          "media": {
+            "type": "", // "image" | "video"
+            "source_url": ""
+          },
+          "cta": {
+            "type": "", // "primary" | "non-primary"
+            "content": "",
+            "href": ""
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "layout": "", // "logo-left" | "logo-center" | "logo-right"
+    "logo": {
+      "image_url": "",
+      "email": "",
+      "social": [
+        {
+          "platform": "", // "facebook" | "twitter" | "instagram" | etc.
+          "url": ""
+        }
+      ]
+    },
+    "columns": [
+      {
+        "title": "",
+        "links": [
+          {
+            "content": "",
+            "href": ""
+          }
+        ]
+      }
+    ],
+    "backgroundColor": "",
+    "textColor": ""
+  }
+}

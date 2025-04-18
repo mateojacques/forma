@@ -1,0 +1,224 @@
+{
+  "header": {
+    "notice": {
+      "message": {
+        "content": "¡Envío gratis en pedidos mayores a $50!",
+        "color": "#ffffff"
+      },
+      "backgroundColor": "#34d399"
+    },
+    "logo": {
+      "position": "center",
+      "size": "normal",
+      "image_url": "https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d?auto=format&fit=crop&w=80&q=80"
+    },
+    "navigation": {
+      "links": [
+        {
+          "type": "section",
+          "content": "Inicio",
+          "href": "#hero"
+        },
+        {
+          "type": "section",
+          "content": "Productos",
+          "href": "#products"
+        },
+        {
+          "type": "section",
+          "content": "Nosotros",
+          "href": "#about"
+        },
+        {
+          "type": "external",
+          "content": "Blog",
+          "href": "https://ecoflow.blog"
+        }
+      ],
+      "position": "left"
+    },
+    "cta": [
+      {
+        "type": "primary",
+        "content": "Comprar ahora",
+        "href": "#products"
+      },
+      {
+        "type": "non-primary",
+        "content": "Contacto",
+        "href": "#contact"
+      }
+    ]
+  },
+  "hero": {
+    "headline": {
+      "content": "Energía limpia para un futuro sostenible",
+      "position": "left"
+    },
+    "subheadline": {
+      "content": "Descubre nuestros productos ecológicos diseñados para cuidar el planeta."
+    },
+    "cta": [
+      {
+        "type": "primary",
+        "content": "Ver productos",
+        "href": "#products"
+      },
+      {
+        "type": "non-primary",
+        "content": "Saber más",
+        "href": "#about"
+      }
+    ],
+    "showcase": {
+      "type": "image",
+      "source_url": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=80",
+      "position": "right",
+      "offset_x": 0,
+      "offset_y": 0,
+      "scale": 1
+    }
+  },
+  "section": [
+    {
+      "title": {
+        "content": "Nuestros productos destacados",
+        "position": "center"
+      },
+      "description": {
+        "content": "Conoce nuestras soluciones eco-amigables favoritas entre nuestros clientes."
+      },
+      "layout": "3-columns",
+      "items": [
+        {
+          "title": "Panel Solar Plegable",
+          "description": "Ideal para acampar o viajar, portátil y eficiente.",
+          "media": {
+            "type": "image",
+            "source_url": "https://images.unsplash.com/photo-1581091870622-2e8b87b6d8c5?auto=format&fit=crop&w=800&q=80"
+          },
+          "cta": {
+            "type": "primary",
+            "content": "Comprar",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Botella Reutilizable",
+          "description": "Diseñada para durar. Sin plásticos, sin residuos.",
+          "media": {
+            "type": "image",
+            "source_url": "https://images.unsplash.com/photo-1571844303925-9b4d5427d7d4?auto=format&fit=crop&w=800&q=80"
+          },
+          "cta": {
+            "type": "primary",
+            "content": "Comprar",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Cargador Solar USB",
+          "description": "Carga tus dispositivos en cualquier parte del mundo.",
+          "media": {
+            "type": "image",
+            "source_url": "https://images.unsplash.com/photo-1586182987325-3c3d18dbf677?auto=format&fit=crop&w=800&q=80"
+          },
+          "cta": {
+            "type": "primary",
+            "content": "Comprar",
+            "href": "#"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "content": "¿Quiénes somos?",
+        "position": "left"
+      },
+      "description": {
+        "content": "EcoFlow es una empresa comprometida con el medio ambiente. Creamos productos que combinan diseño, funcionalidad y responsabilidad ecológica."
+      },
+      "layout": "1-column",
+      "items": [
+        {
+          "title": "Nuestro compromiso",
+          "description": "Trabajamos con materiales reciclados y procesos sustentables para reducir nuestra huella ecológica.",
+          "media": {
+            "type": "image",
+            "source_url": "https://images.unsplash.com/photo-1603321268596-e5c8bba1e723?auto=format&fit=crop&w=800&q=80"
+          },
+          "cta": {
+            "type": "non-primary",
+            "content": "Leer más",
+            "href": "#"
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "layout": "logo-left",
+    "logo": {
+      "image_url": "https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d?auto=format&fit=crop&w=80&q=80",
+      "email": "hola@ecoflow.com",
+      "social": [
+        {
+          "platform": "facebook",
+          "url": "https://facebook.com/ecoflow"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://instagram.com/ecoflow"
+        },
+        {
+          "platform": "twitter",
+          "url": "https://twitter.com/ecoflow"
+        }
+      ]
+    },
+    "columns": [
+      {
+        "title": "Empresa",
+        "links": [
+          {
+            "content": "Sobre nosotros",
+            "href": "#about"
+          },
+          {
+            "content": "Carreras",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "title": "Ayuda",
+        "links": [
+          {
+            "content": "Preguntas frecuentes",
+            "href": "#"
+          },
+          {
+            "content": "Contacto",
+            "href": "#contact"
+          }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          {
+            "content": "Términos y condiciones",
+            "href": "#"
+          },
+          {
+            "content": "Política de privacidad",
+            "href": "#"
+          }
+        ]
+      }
+    ],
+    "backgroundColor": "#f3f4f6",
+    "textColor": "#111827"
+  }
+}
