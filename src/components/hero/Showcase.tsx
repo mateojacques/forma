@@ -16,6 +16,8 @@ const Showcase = () => {
         margin,
         padding,
         elevation,
+        zIndex,
+        fade
       },
     },
   } = EXAMPLE_JSON_DATA;
@@ -30,6 +32,8 @@ const Showcase = () => {
     paddingBottom: `${padding.bottom}px`,
     paddingLeft: `${padding.left}px`,
     paddingRight: `${padding.right}px`,
+    zIndex,
+    maskImage: "linear-gradient(to bottom, black 70%, transparent 100%)",
   };
 
   return (

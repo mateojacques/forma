@@ -76,10 +76,10 @@
     "showcase": {
       "type": "image",
       "source_url": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=80",
-      "position": "right",
+      "position": "bottom",
       "offset_x": 0,
       "offset_y": 0,
-      "scale": 1,
+      "scale": 2,
       "margin": {
         "top": 0,
         "bottom": 0,
@@ -92,7 +92,9 @@
         "left": 0,
         "right": 0
       },
-      "elevation": 2
+      "elevation": 0,
+      "zIndex": -1,
+      "fade": 1
     },
     "backgroundColor": "#f0f0f0",
     "textColor": "#333333"

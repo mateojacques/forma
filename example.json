@@ -67,7 +67,9 @@
         "left": 0,
         "right": 0
       },
-      "elevation": 0 // 0 | 1 | 2 | 3 | 4 | 5
+      "elevation": 0, // 0 | 1 | 2 | 3 | 4 | 5
+      "zIndex": 0,
+      "fade": 0 // 0 | 1
     },
     "backgroundColor": "",
     "textColor": ""
