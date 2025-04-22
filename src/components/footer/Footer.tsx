@@ -1,13 +1,13 @@
 import { EXAMPLE_JSON_DATA } from "../../utils/constants";
 
 const Footer = () => {
-  const { logo, columns, backgroundColor, textColor } =
-    EXAMPLE_JSON_DATA.footer;
+  const { logo, columns } = EXAMPLE_JSON_DATA.footer;
+  const { palette } = EXAMPLE_JSON_DATA;
 
   return (
     <footer
       className="px-4 py-12"
-      style={{ backgroundColor, color: textColor }}
+      style={{ backgroundColor: palette.background, color: palette.text }}
     >
       <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8">
         <div>

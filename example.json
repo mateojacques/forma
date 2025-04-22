@@ -3,7 +3,7 @@
     "notice": {
       "message": {
         "content": "",
-        "color": ""        
+        "color": ""
       },
       "backgroundColor": ""
     },
@@ -24,16 +24,20 @@
     },
     "cta": [
       {
-        "type": "", // "primary" | "non-primary"
+        "type": "", // "primary" | "secondary"
         "content": "",
         "href": ""
       }
-    ]
+    ],
+    "backgroundColor": "",
+    "textColor": "",
+    "elevation": 0, // 0 | 1 | 2 | 3 | 4 | 5
+    "position": "" // "sticky" | "static"
   },
   "hero": {
     "headline": {
       "content": "",
-      "position": "", // "left" | "right" | "top" | "bottom"
+      "position": "" // "left" | "right" | "top" | "bottom"
     },
     "subheadline": {
       "content": ""
@@ -52,7 +56,9 @@
       "offset_x": 0,
       "offset_y": 0,
       "scale": 1
-    }
+    },
+    "backgroundColor": "",
+    "textColor": ""
   },
   "section": [
     {
@@ -78,7 +84,9 @@
             "href": ""
           }
         }
-      ]
+      ],
+      "backgroundColor": "",
+      "textColor": ""
     }
   ],
   "footer": {
@@ -106,5 +114,12 @@
     ],
     "backgroundColor": "",
     "textColor": ""
+  },
+  "palette": {
+    "primary": "",
+    "secondary": "",
+    "accent": "",
+    "background": "",
+    "text": ""
   }
 }

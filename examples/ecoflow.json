@@ -10,7 +10,7 @@
     "logo": {
       "position": "center",
       "size": "normal",
-      "image_url": "https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d?auto=format&fit=crop&w=80&q=80"
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/023/654/784/small_2x/golden-logo-template-free-png.png"
     },
     "navigation": {
       "links": [
@@ -35,7 +35,7 @@
           "href": "https://ecoflow.blog"
         }
       ],
-      "position": "left"
+      "position": "center"
     },
     "cta": [
       {
@@ -44,11 +44,15 @@
         "href": "#products"
       },
       {
-        "type": "non-primary",
+        "type": "secondary",
         "content": "Contacto",
         "href": "#contact"
       }
-    ]
+    ],
+    "backgroundColor": "#4e44ed",
+    "textColor": "#ffffff",
+    "elevation": 3,
+    "position": "sticky"
   },
   "hero": {
     "headline": {
@@ -77,7 +81,9 @@
       "offset_x": 0,
       "offset_y": 0,
       "scale": 1
-    }
+    },
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#333333"
   },
   "section": [
     {
@@ -129,7 +135,9 @@
             "href": "#"
           }
         }
-      ]
+      ],
+      "backgroundColor": "#f0f0f0",
+      "textColor": "#333333"
     },
     {
       "title": {
@@ -154,7 +162,9 @@
             "href": "#"
           }
         }
-      ]
+      ],
+      "backgroundColor": "#f0f0f0",
+      "textColor": "#333333"
     }
   ],
   "footer": {
@@ -220,5 +230,12 @@
     ],
     "backgroundColor": "#f3f4f6",
     "textColor": "#111827"
+  },
+  "palette": {
+    "primary": "#34d399",
+    "secondary": "#10b981",
+    "accent": "#047857",
+    "background": "#f3f4f6",
+    "text": "#111827"
   }
 }

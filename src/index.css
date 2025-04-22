@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+:root {
+  --text-color: #111827; /* Default fallback */
+}
+
+body {
+  color: var(--text-color);
+}

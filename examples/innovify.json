@@ -1,0 +1,191 @@
+{
+  "header": {
+    "notice": {
+      "message": {
+        "content": "Limited Time Offer: 20% Off!",
+        "color": "#ffffff"
+      },
+      "backgroundColor": "#ff5733"
+    },
+    "logo": {
+      "position": "center",
+      "size": "big",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Wikimedia-logo.png"
+    },
+    "navigation": {
+      "links": [
+        {
+          "type": "section",
+          "content": "Features",
+          "href": "#features"
+        },
+        {
+          "type": "section",
+          "content": "Pricing",
+          "href": "#pricing"
+        },
+        {
+          "type": "external",
+          "content": "Contact Us",
+          "href": "https://example.com/contact"
+        }
+      ],
+      "position": "center"
+    },
+    "cta": [
+      {
+        "type": "primary",
+        "content": "Buy Now",
+        "href": "https://example.com/buy"
+      },
+      {
+        "type": "secondary",
+        "content": "Learn More",
+        "href": "#learn-more"
+      }
+    ],
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#333333",
+    "elevation": 0,
+    "position": "static"
+  },
+  "hero": {
+    "headline": {
+      "content": "Revolutionize Your Workflow",
+      "position": "left"
+    },
+    "subheadline": {
+      "content": "Discover the ultimate tool for productivity."
+    },
+    "cta": [
+      {
+        "type": "primary",
+        "content": "Get Started",
+        "href": "https://example.com/start"
+      }
+    ],
+    "showcase": {
+      "type": "image",
+      "source_url": "https://unsplash.com/photos/gcsNOsPEXfs/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8d29ya2Zsb3d8ZW58MHx8fHwxNzEzMDA3Njk4fDA&force=true",
+      "position": "right",
+      "offset_x": 10,
+      "offset_y": 0,
+      "scale": 1.2
+    },
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#333333"
+  },
+  "section": [
+    {
+      "title": {
+        "content": "Features",
+        "position": "center"
+      },
+      "description": {
+        "content": "Explore the powerful features that make our product unique."
+      },
+      "layout": "3-columns",
+      "items": [
+        {
+          "title": "Feature 1",
+          "description": "Description of feature 1.",
+          "media": {
+            "type": "image",
+            "source_url": "https://unsplash.com/photos/5fNmWej4tAA/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8M3x8cHJvZHVjdGl2aXR5fGVufDB8fHx8MTcxMzAwNzczMHww&force=true"
+          },
+          "cta": {
+            "type": "primary",
+            "content": "Learn More",
+            "href": "#feature1"
+          }
+        },
+        {
+          "title": "Feature 2",
+          "description": "Description of feature 2.",
+          "media": {
+            "type": "image",
+            "source_url": "https://unsplash.com/photos/iar-afB0QQw/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTB8fHRlYW0lMjB3b3JrfGVufDB8fHx8MTcxMzAwNzc2Mnww&force=true"
+          },
+          "cta": {
+            "type": "primary",
+            "content": "Learn More",
+            "href": "#feature2"
+          }
+        },
+        {
+          "title": "Feature 3",
+          "description": "Description of feature 3.",
+          "media": {
+            "type": "image",
+            "source_url": "https://unsplash.com/photos/TamMbr4okv4/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTV8fGRhdGElMjBhbmFseXNpc3xlbnwwfHx8fDE3MTMwMDc3OTV8MA&force=true"
+          },
+          "cta": {
+            "type": "primary",
+            "content": "Learn More",
+            "href": "#feature3"
+          }
+        }
+      ],
+      "backgroundColor": "#f0f0f0",
+      "textColor": "#333333"
+    }
+  ],
+  "footer": {
+    "layout": "logo-center",
+    "logo": {
+      "image_url": "https://unsplash.com/photos/qwtCeJ5cLYs/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8OHx8cHJvZHVjdGl2aXR5JTIwbG9nb3xlbnwwfHx8fDE3MTMwMDc2NTN8MA&force=true",
+      "email": "support@example.com",
+      "social": [
+        {
+          "platform": "facebook",
+          "url": "https://facebook.com/example"
+        },
+        {
+          "platform": "twitter",
+          "url": "https://twitter.com/example"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://instagram.com/example"
+        }
+      ]
+    },
+    "columns": [
+      {
+        "title": "Company",
+        "links": [
+          {
+            "content": "About Us",
+            "href": "https://example.com/about"
+          },
+          {
+            "content": "Careers",
+            "href": "https://example.com/careers"
+          }
+        ]
+      },
+      {
+        "title": "Support",
+        "links": [
+          {
+            "content": "Help Center",
+            "href": "https://example.com/help"
+          },
+          {
+            "content": "Contact Us",
+            "href": "https://example.com/contact"
+          }
+        ]
+      }
+    ],
+    "backgroundColor": "#333333",
+    "textColor": "#ffffff"
+  },
+  "palette": {
+    "primary": "#ff5733",
+    "secondary": "#c70039",
+    "accent": "#900c3f",
+    "background": "#f5f5f5",
+    "text": "#333333"
+  }
+}
