@@ -10,7 +10,7 @@
     "logo": {
       "position": "center",
       "size": "normal",
-      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/023/654/784/small_2x/golden-logo-template-free-png.png"
+      "image_url": "https://png.pngtree.com/png-vector/20220730/ourmid/pngtree-circle-eco-friendly-logo-symbol-png-image_6093131.png"
     },
     "navigation": {
       "links": [
@@ -49,9 +49,9 @@
         "href": "#contact"
       }
     ],
-    "backgroundColor": "#4e44ed",
-    "textColor": "#ffffff",
-    "elevation": 3,
+    "backgroundColor": "#fff",
+    "textColor": "#111",
+    "elevation": 1,
     "position": "sticky"
   },
   "hero": {
@@ -75,7 +75,7 @@
     ],
     "showcase": {
       "type": "image",
-      "source_url": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=80",
+      "source_url": "https://i.imgur.com/42BRqfd.png",
       "position": "bottom",
       "offset_x": 0,
       "offset_y": 0,
@@ -249,7 +249,7 @@
     "primary": "#34d399",
     "secondary": "#10b981",
     "accent": "#047857",
-    "background": "#f3f4f6",
+    "background": "#fff",
     "text": "#111827"
   }
 }
