@@ -33,7 +33,7 @@ const Showcase = () => {
     paddingLeft: `${padding.left}px`,
     paddingRight: `${padding.right}px`,
     zIndex,
-    maskImage: "linear-gradient(to bottom, black 70%, transparent 100%)",
+    maskImage: fade ? "linear-gradient(to bottom, black 70%, transparent 100%)" : "none",
   };
 
   return (
