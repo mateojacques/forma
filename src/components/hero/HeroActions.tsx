@@ -1,22 +1,22 @@
 import { TCallToActionType } from "../../interfaces/common";
 import { EXAMPLE_JSON_DATA } from "../../utils/constants";
-import ActionButton from "./ActionButton";
+import ActionButton from "../header/ActionButton";
 
-const Actions = () => {
+const HeroActions = () => {
   const {
-    header: { cta },
+    hero: { cta },
   } = EXAMPLE_JSON_DATA;
 
   return (
-    <div className="flex gap-2 order-2 shrink-0">
-      {cta.map(({ href, content, type }) => (
+    <div className="flex gap-4">
+      {cta.map(({ href, type, content }) => (
         <ActionButton
           key={`${href}-${content}-${type}`}
-          {...{ href, content, type: type as TCallToActionType }}
+          {...{ href, type: type as TCallToActionType, content }}
         />
       ))}
     </div>
   );
 };
 
-export default Actions;
+export default HeroActions;

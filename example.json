@@ -36,8 +36,7 @@
   },
   "hero": {
     "headline": {
-      "content": "",
-      "position": "" // "left" | "right" | "top" | "bottom"
+      "content": ""
     },
     "subheadline": {
       "content": ""

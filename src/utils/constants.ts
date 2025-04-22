@@ -37,6 +37,26 @@ export const ELEVATION_CLASSES: { [key: number]: string } = {
 };
 
 export const BUTTON_COLOR_CLASSES: { [key: string]: string } = {
-  primary: "bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded ease-in duration-100",
-  secondary: "bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded ease-in duration-100",
+  primary:
+    "bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded ease-in duration-100",
+  secondary:
+    "bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded ease-in duration-100",
+};
+
+export const SHOWCASE_CLASSES_BY_POSITION_NAME: {
+  [key: string]: string;
+} = {
+  left: "",
+  right: "",
+  top: "",
+  bottom: "col-span-2",
+};
+
+export const HEADLINE_CLASSES_BY_SHOWCASE_POSITION_NAME: {
+  [key: string]: string;
+} = {
+  left: "",
+  right: "",
+  top: "",
+  bottom: "col-span-2 items-center",
 };

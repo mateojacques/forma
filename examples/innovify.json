@@ -51,8 +51,7 @@
   },
   "hero": {
     "headline": {
-      "content": "Revolutionize Your Workflow",
-      "position": "left"
+      "content": "Revolutionize Your Workflow"
     },
     "subheadline": {
       "content": "Discover the ultimate tool for productivity."
@@ -67,10 +66,10 @@
     "showcase": {
       "type": "image",
       "source_url": "https://unsplash.com/photos/gcsNOsPEXfs/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8d29ya2Zsb3d8ZW58MHx8fHwxNzEzMDA3Njk4fDA&force=true",
-      "position": "right",
-      "offset_x": 10,
-      "offset_y": 0,
-      "scale": 1.2
+      "position": "bottom",
+      "offset_x": 0,
+      "offset_y": 100,
+      "scale": 1
     },
     "backgroundColor": "#f0f0f0",
     "textColor": "#333333"
