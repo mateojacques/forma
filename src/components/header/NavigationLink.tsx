@@ -1,6 +1,6 @@
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
 import { INavigationLink } from "../../interfaces/header";
-import { EXAMPLE_JSON_DATA } from "../../utils/constants";
+import { ANCHOR_CLASSES, EXAMPLE_JSON_DATA } from "../../utils/constants";
 
 const NavigationLink = ({ href, content, type }: INavigationLink) => {
   const {
@@ -13,7 +13,7 @@ const NavigationLink = ({ href, content, type }: INavigationLink) => {
       <a
         key={`${href}-${content}-${type}`}
         href={href}
-        className="hover:opacity-[0.7] relative flex hover:**:data-icon:rotate-[10deg] hover:**:data-icon:scale-[1.1] ease-in duration-[0.15s]"
+        className={`relative flex hover:**:data-icon:rotate-[10deg] hover:**:data-icon:scale-[1.1] ${ANCHOR_CLASSES}`}
         target={type === "external" ? "_blank" : "_self"}
         rel="noreferrer"
       >

@@ -60,3 +60,5 @@ export const HEADLINE_CLASSES_BY_SHOWCASE_POSITION_NAME: {
   top: "col-span-2 items-center mt-10",
   bottom: "col-span-2 items-center mb-10",
 };
+
+export const ANCHOR_CLASSES = "hover:opacity-[0.7] ease-in duration-[0.15s]";
