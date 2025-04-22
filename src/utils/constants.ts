@@ -1,4 +1,4 @@
-import mockData from "../../examples/innovify.json";
+import mockData from "../../examples/ecoflow.json";
 
 export const EXAMPLE_JSON_DATA = mockData;
 
@@ -46,17 +46,17 @@ export const BUTTON_COLOR_CLASSES: { [key: string]: string } = {
 export const SHOWCASE_CLASSES_BY_POSITION_NAME: {
   [key: string]: string;
 } = {
-  left: "",
+  left: "-order-1",
   right: "",
-  top: "",
-  bottom: "col-span-2",
+  top: "col-span-2 -order-1 flex justify-center",
+  bottom: "col-span-2 flex justify-center",
 };
 
 export const HEADLINE_CLASSES_BY_SHOWCASE_POSITION_NAME: {
   [key: string]: string;
 } = {
-  left: "",
-  right: "",
-  top: "",
-  bottom: "col-span-2 items-center",
+  left: "ml-10 items-center",
+  right: "mr-10",
+  top: "col-span-2 items-center mt-10",
+  bottom: "col-span-2 items-center mb-10",
 };

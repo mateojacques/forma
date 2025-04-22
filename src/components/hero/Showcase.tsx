@@ -1,4 +1,5 @@
 import {
+  ELEVATION_CLASSES,
   EXAMPLE_JSON_DATA,
   SHOWCASE_CLASSES_BY_POSITION_NAME,
 } from "../../utils/constants";
@@ -6,9 +7,30 @@ import {
 const Showcase = () => {
   const {
     hero: {
-      showcase: { source_url, scale, offset_x, offset_y, position },
+      showcase: {
+        source_url,
+        scale,
+        offset_x,
+        offset_y,
+        position,
+        margin,
+        padding,
+        elevation,
+      },
     },
   } = EXAMPLE_JSON_DATA;
+
+  const imageStyles = {
+    transform: `scale(${scale}) translate(${offset_x}px, ${offset_y}px)`,
+    marginTop: `${margin.top}px`,
+    marginBottom: `${margin.bottom}px`,
+    marginLeft: `${margin.left}px`,
+    marginRight: `${margin.right}px`,
+    paddingTop: `${padding.top}px`,
+    paddingBottom: `${padding.bottom}px`,
+    paddingLeft: `${padding.left}px`,
+    paddingRight: `${padding.right}px`,
+  };
 
   return (
     <div
@@ -17,10 +39,8 @@ const Showcase = () => {
       <img
         src={source_url}
         alt="Hero showcase"
-        style={{
-          transform: `scale(${scale}) translate(${offset_x}px, ${offset_y}px)`,
-        }}
-        className="rounded shadow"
+        style={imageStyles}
+        className={`w-auto rounded ${ELEVATION_CLASSES[elevation]}`}
       />
     </div>
   );

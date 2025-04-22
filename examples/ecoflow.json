@@ -68,7 +68,7 @@
         "href": "#products"
       },
       {
-        "type": "non-primary",
+        "type": "secondary",
         "content": "Saber más",
         "href": "#about"
       }
@@ -79,7 +79,20 @@
       "position": "right",
       "offset_x": 0,
       "offset_y": 0,
-      "scale": 1
+      "scale": 1,
+      "margin": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "elevation": 2
     },
     "backgroundColor": "#f0f0f0",
     "textColor": "#333333"
