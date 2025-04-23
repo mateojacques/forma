@@ -103,7 +103,7 @@
     {
       "title": {
         "content": "Nuestros productos destacados",
-        "position": "center"
+        "position": "left"
       },
       "description": {
         "content": "Conoce nuestras soluciones eco-amigables favoritas entre nuestros clientes."
@@ -115,7 +115,7 @@
           "description": "Ideal para acampar o viajar, portátil y eficiente.",
           "media": {
             "type": "image",
-            "source_url": "https://images.unsplash.com/photo-1581091870622-2e8b87b6d8c5?auto=format&fit=crop&w=800&q=80"
+            "source_url": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=800&q=80"
           },
           "cta": {
             "type": "primary",
@@ -128,7 +128,7 @@
           "description": "Diseñada para durar. Sin plásticos, sin residuos.",
           "media": {
             "type": "image",
-            "source_url": "https://images.unsplash.com/photo-1571844303925-9b4d5427d7d4?auto=format&fit=crop&w=800&q=80"
+            "source_url": "https://images.unsplash.com/photo-1589365278144-c9e705f843ba?auto=format&fit=crop&w=800&q=80"
           },
           "cta": {
             "type": "primary",
@@ -141,7 +141,7 @@
           "description": "Carga tus dispositivos en cualquier parte del mundo.",
           "media": {
             "type": "image",
-            "source_url": "https://images.unsplash.com/photo-1586182987325-3c3d18dbf677?auto=format&fit=crop&w=800&q=80"
+            "source_url": "https://images.unsplash.com/photo-1548690312-e3b507d8c110?auto=format&fit=crop&w=800&q=80"
           },
           "cta": {
             "type": "primary",

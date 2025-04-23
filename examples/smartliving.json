@@ -1,0 +1,333 @@
+{
+  "header": {
+    "notice": {
+      "message": {
+        "content": "Nuevo lanzamiento: Control por voz disponible ahora",
+        "color": "#ffffff"
+      },
+      "backgroundColor": "#6366f1"
+    },
+    "logo": {
+      "position": "left",
+      "size": "normal",
+      "image_url": "https://images.unsplash.com/photo-1585184394271-4c0a47dc59c9?auto=format&fit=crop&w=200&q=80"
+    },
+    "navigation": {
+      "links": [
+        {
+          "type": "section",
+          "content": "Productos",
+          "href": "#products"
+        },
+        {
+          "type": "section",
+          "content": "Soluciones",
+          "href": "#solutions"
+        },
+        {
+          "type": "section",
+          "content": "Testimonios",
+          "href": "#testimonials"
+        },
+        {
+          "type": "external",
+          "content": "Soporte",
+          "href": "https://smartliving.support"
+        }
+      ],
+      "position": "center"
+    },
+    "cta": [
+      {
+        "type": "primary",
+        "content": "Comprar ahora",
+        "href": "#products"
+      },
+      {
+        "type": "secondary",
+        "content": "Demo virtual",
+        "href": "#demo"
+      }
+    ],
+    "backgroundColor": "#f8fafc",
+    "textColor": "#1e293b",
+    "elevation": 2,
+    "position": "sticky"
+  },
+  "hero": {
+    "headline": {
+      "content": "Transforma tu hogar con inteligencia"
+    },
+    "subheadline": {
+      "content": "Soluciones inteligentes que se adaptan a tu estilo de vida, ahorrando tiempo y energía."
+    },
+    "cta": [
+      {
+        "type": "primary",
+        "content": "Descubrir productos",
+        "href": "#products"
+      },
+      {
+        "type": "non-primary",
+        "content": "Ver cómo funciona",
+        "href": "#how-it-works"
+      }
+    ],
+    "showcase": {
+      "type": "image",
+      "source_url": "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=1400&q=80",
+      "position": "right",
+      "offset_x": 0,
+      "offset_y": 0,
+      "scale": 1.2,
+      "margin": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "elevation": 3,
+      "zIndex": 0,
+      "fade": 0
+    },
+    "backgroundColor": "#f1f5f9",
+    "textColor": "#1e293b"
+  },
+  "section": [
+    {
+      "title": {
+        "content": "Productos destacados",
+        "position": "center"
+      },
+      "description": {
+        "content": "Descubre nuestra línea de productos que transformarán tu hogar en un espacio inteligente y eficiente."
+      },
+      "layout": "3-columns",
+      "items": [
+        {
+          "title": "SmartHub Central",
+          "description": "El centro de control para todos tus dispositivos inteligentes, con compatibilidad universal.",
+          "media": {
+            "type": "image",
+            "source_url": "https://images.unsplash.com/photo-1525598912003-663126343e1f?auto=format&fit=crop&w=800&q=80"
+          },
+          "cta": {
+            "type": "primary",
+            "content": "Conocer más",
+            "href": "#smarthub"
+          }
+        },
+        {
+          "title": "LuminaControl",
+          "description": "Sistema de iluminación inteligente que se adapta a tu ritmo circadiano y ahorra energía.",
+          "media": {
+            "type": "image",
+            "source_url": "https://images.unsplash.com/photo-1565814329452-e1efa11c5b89?auto=format&fit=crop&w=800&q=80"
+          },
+          "cta": {
+            "type": "primary",
+            "content": "Explorar",
+            "href": "#lumina"
+          }
+        },
+        {
+          "title": "ThermoSense",
+          "description": "Control de temperatura inteligente que aprende tus preferencias y optimiza el consumo.",
+            "media": {
+            "type": "image",
+            "source_url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?auto=format&fit=crop&w=800&q=80"
+          },
+          "cta": {
+            "type": "primary",
+            "content": "Ver detalles",
+            "href": "#thermo"
+          }
+        }
+      ],
+      "backgroundColor": "",
+      "textColor": "#1e293b"
+    },
+    {
+      "title": {
+        "content": "Soluciones a medida",
+        "position": "left"
+      },
+      "description": {
+        "content": "Nuestros sistemas se integran perfectamente para crear soluciones personalizadas según tus necesidades."
+      },
+      "layout": "2-columns",
+      "items": [
+        {
+          "title": "Hogar Eficiente",
+          "description": "Reduce tu consumo energético hasta un 35% con nuestras soluciones integradas de control inteligente.",
+          "media": {
+            "type": "image",
+            "source_url": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80"
+          },
+          "cta": {
+            "type": "primary",
+            "content": "Calculadora de ahorro",
+            "href": "#calculator"
+          }
+        },
+        {
+          "title": "Seguridad Avanzada",
+          "description": "Sistema de monitoreo con alertas en tiempo real y integración con asistentes de voz.",
+          "media": {
+            "type": "image",
+            "source_url": "https://images.unsplash.com/photo-1593115057322-e94b77572f20?auto=format&fit=crop&w=800&q=80"
+          },
+          "cta": {
+            "type": "primary",
+            "content": "Ver planes",
+            "href": "#security"
+          }
+        }
+      ],
+      "backgroundColor": "#e2e8f0",
+      "textColor": "#1e293b"
+    },
+    {
+      "title": {
+        "content": "Testimonios",
+        "position": "center"
+      },
+      "description": {
+        "content": "Descubre cómo nuestros productos han transformado hogares alrededor del mundo."
+      },
+      "layout": "3-columns",
+      "items": [
+        {
+          "title": "María López",
+          "description": "Desde que instalé SmartLiving, mi consumo energético se ha reducido un 40%. La aplicación es intuitiva y la instalación fue muy sencilla.",
+          "media": {
+            "type": "image",
+            "source_url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=300&q=80"
+          },
+          "cta": {
+            "type": "non-primary",
+            "content": "Leer historia completa",
+            "href": "#maria"
+          }
+        },
+        {
+          "title": "Carlos Ramírez",
+          "description": "El sistema de seguridad me da tranquilidad cuando viajo. Puedo monitorear todo desde mi teléfono y recibir alertas instantáneas.",
+          "media": {
+            "type": "image",
+            "source_url": "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=300&q=80"
+          },
+          "cta": {
+            "type": "non-primary",
+            "content": "Leer historia completa",
+            "href": "#carlos"
+          }
+        },
+        {
+          "title": "Elena Martínez",
+          "description": "La iluminación inteligente ha mejorado mi descanso notablemente. Se adapta automáticamente y crea ambientes perfectos para cada momento.",
+          "media": {
+            "type": "image",
+            "source_url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=300&q=80"
+          },
+          "cta": {
+            "type": "non-primary",
+            "content": "Leer historia completa",
+            "href": "#elena"
+          }
+        }
+      ],
+      "backgroundColor": "#f1f5f9",
+      "textColor": "#1e293b"
+    }
+  ],
+  "footer": {
+    "layout": "logo-left",
+    "logo": {
+      "image_url": "https://images.unsplash.com/photo-1585184394271-4c0a47dc59c9?auto=format&fit=crop&w=100&q=80",
+      "email": "info@smartliving.tech",
+      "social": [
+        {
+          "platform": "instagram",
+          "url": "https://instagram.com/smartliving"
+        },
+        {
+          "platform": "twitter",
+          "url": "https://twitter.com/smartliving"
+        },
+        {
+          "platform": "linkedin",
+          "url": "https://linkedin.com/company/smartliving"
+        }
+      ]
+    },
+    "columns": [
+      {
+        "title": "Productos",
+        "links": [
+          {
+            "content": "SmartHub",
+            "href": "#smarthub"
+          },
+          {
+            "content": "LuminaControl",
+            "href": "#lumina"
+          },
+          {
+            "content": "ThermoSense",
+            "href": "#thermo"
+          }
+        ]
+      },
+      {
+        "title": "Soporte",
+        "links": [
+          {
+            "content": "Guía de instalación",
+            "href": "#installation"
+          },
+          {
+            "content": "Centro de ayuda",
+            "href": "#help"
+          },
+          {
+            "content": "Contacto",
+            "href": "#contact"
+          }
+        ]
+      },
+      {
+        "title": "Empresa",
+        "links": [
+          {
+            "content": "Sobre nosotros",
+            "href": "#about"
+          },
+          {
+            "content": "Blog",
+            "href": "https://blog.smartliving.tech"
+          },
+          {
+            "content": "Prensa",
+            "href": "#press"
+          }
+        ]
+      }
+    ],
+    "backgroundColor": "#0f172a",
+    "textColor": "#e2e8f0"
+  },
+  "palette": {
+    "primary": "#6366f1",
+    "secondary": "#4f46e5",
+    "accent": "#818cf8",
+    "background": "#f8fafc",
+    "text": "#1e293b"
+  }
+}

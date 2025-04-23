@@ -1,4 +1,4 @@
-import mockData from "../../examples/ecoflow.json";
+import mockData from "../../examples/smartliving.json";
 
 export const EXAMPLE_JSON_DATA = mockData;
 
