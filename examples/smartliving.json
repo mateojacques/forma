@@ -121,7 +121,8 @@
             "type": "primary",
             "content": "Conocer más",
             "href": "#smarthub"
-          }
+          },
+          "strategy": "gradient"
         },
         {
           "title": "LuminaControl",
@@ -134,7 +135,8 @@
             "type": "primary",
             "content": "Explorar",
             "href": "#lumina"
-          }
+          },
+          "strategy": "gradient"
         },
         {
           "title": "ThermoSense",
@@ -147,7 +149,8 @@
             "type": "primary",
             "content": "Ver detalles",
             "href": "#thermo"
-          }
+          },
+          "strategy": "gradient"
         }
       ],
       "backgroundColor": "",
@@ -174,7 +177,8 @@
             "type": "primary",
             "content": "Calculadora de ahorro",
             "href": "#calculator"
-          }
+          },
+          "strategy": "simple"
         },
         {
           "title": "Seguridad Avanzada",
@@ -187,7 +191,8 @@
             "type": "primary",
             "content": "Ver planes",
             "href": "#security"
-          }
+          },
+          "strategy": "simple"
         }
       ],
       "backgroundColor": "#e2e8f0",
@@ -214,7 +219,8 @@
             "type": "non-primary",
             "content": "Leer historia completa",
             "href": "#maria"
-          }
+          },
+          "strategy": "simple"
         },
         {
           "title": "Carlos Ramírez",
@@ -227,7 +233,8 @@
             "type": "non-primary",
             "content": "Leer historia completa",
             "href": "#carlos"
-          }
+          },
+          "strategy": "simple"
         },
         {
           "title": "Elena Martínez",
@@ -240,7 +247,8 @@
             "type": "non-primary",
             "content": "Leer historia completa",
             "href": "#elena"
-          }
+          },
+          "strategy": "simple"
         }
       ],
       "backgroundColor": "#f1f5f9",

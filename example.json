@@ -96,7 +96,8 @@
             "type": "", // "primary" | "non-primary"
             "content": "",
             "href": ""
-          }
+          },
+          "strategy": "" // "simple"
         }
       ],
       "backgroundColor": "",

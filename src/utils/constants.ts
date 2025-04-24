@@ -62,3 +62,6 @@ export const HEADLINE_CLASSES_BY_SHOWCASE_POSITION_NAME: {
 };
 
 export const ANCHOR_CLASSES = "hover:opacity-[0.7] ease-in duration-[0.15s]";
+
+export const SIMPLE = "simple";
+export const GRADIENT = "gradient";

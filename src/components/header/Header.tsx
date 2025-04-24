@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <header
-      className={`${elevationClass} ${position} top-[0px] z-10`}
+      className={`${elevationClass} ${position} top-[0px] z-100`}
       style={{ backgroundColor, color: textColor }}
     >
       {notice.message.content && <Notice />}

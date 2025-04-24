@@ -111,7 +111,8 @@
             "type": "primary",
             "content": "Learn More",
             "href": "#feature1"
-          }
+          },
+          "strategy": "simple"
         },
         {
           "title": "Feature 2",
@@ -124,7 +125,8 @@
             "type": "primary",
             "content": "Learn More",
             "href": "#feature2"
-          }
+          },
+          "strategy": "simple"
         },
         {
           "title": "Feature 3",
@@ -137,7 +139,8 @@
             "type": "primary",
             "content": "Learn More",
             "href": "#feature3"
-          }
+          },
+          "strategy": "simple"
         }
       ],
       "backgroundColor": "#f0f0f0",

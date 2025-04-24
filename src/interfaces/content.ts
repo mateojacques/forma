@@ -1,3 +1,5 @@
+import { ICardData } from "./card";
+
 export interface ISection {
   title: {
     content: string;
@@ -7,19 +9,7 @@ export interface ISection {
     content: string;
   };
   layout: string;
-  items: {
-    title: string;
-    description: string;
-    media: {
-      type: string;
-      source_url: string;
-    };
-    cta: {
-      type: string;
-      content: string;
-      href: string;
-    };
-  }[];
+  items: ICardData[];
   backgroundColor: string;
   textColor: string;
 }
@@ -43,6 +33,6 @@ export type TRenderSectionStrategy<T> = {
 };
 
 export type TSectionStrategy = {
-  [key: string]: TRenderSectionStrategy<any>;
+  [key: string]: TRenderSectionStrategy<ICardData>;
 };
 

@@ -121,7 +121,8 @@
             "type": "primary",
             "content": "Comprar",
             "href": "#"
-          }
+          },
+          "strategy": "simple"
         },
         {
           "title": "Botella Reutilizable",
@@ -134,7 +135,8 @@
             "type": "primary",
             "content": "Comprar",
             "href": "#"
-          }
+          },
+          "strategy": "simple"
         },
         {
           "title": "Cargador Solar USB",
@@ -147,7 +149,8 @@
             "type": "primary",
             "content": "Comprar",
             "href": "#"
-          }
+          },
+          "strategy": "simple"
         }
       ],
       "backgroundColor": "#f0f0f0",
